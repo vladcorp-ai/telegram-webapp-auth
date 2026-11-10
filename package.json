@@ -1,0 +1,49 @@
+{
+  "name": "telegram-webapp-auth",
+  "version": "0.1.0",
+  "description": "Zero-dependency validation of Telegram Mini App initData and Login Widget data for Node.js, with an Express middleware.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.test.json"
+  },
+  "keywords": [
+    "telegram",
+    "mini-app",
+    "webapp",
+    "initData",
+    "login-widget",
+    "auth",
+    "express",
+    "typescript"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "peerDependencies": {
+    "express": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "express": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladcorp-ai/telegram-webapp-auth.git"
+  },
+  "author": "Vlad (VladCorp AI)"
+}
